@@ -13,9 +13,9 @@ public class StringUtilitiesTests {
 
     @Test
     public void testFirstLetter() {
-        Assert.assertEquals('a', StringUtilities.firstLetter("apple"));
-        Assert.assertEquals('b', StringUtilities.firstLetter("banana"));
-        Assert.assertEquals('c', StringUtilities.firstLetter("cherry"));
+        Assert.assertEquals('a', StringUtilities.firstLetter("apple").charValue());
+        Assert.assertEquals('b', StringUtilities.firstLetter("banana").charValue());
+        Assert.assertEquals('c', StringUtilities.firstLetter("cherry").charValue());
     }
 
     @Test
