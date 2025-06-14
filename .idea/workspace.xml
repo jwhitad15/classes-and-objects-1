@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="813f5b22-d6d1-4814-ab9f-81c75705e2f6" name="Changes" comment="First solo attempt">
+    <list default="true" id="813f5b22-d6d1-4814-ab9f-81c75705e2f6" name="Changes" comment="All Red Flag Errors taken care of. Still getting yellow squigley lines under the assertEquals method. Giving me an &quot;objects not compatible&quot; error. Google hasn't helped.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StringUtilities.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,8 @@
   "keyToString": {
     "JUnit.All in software-dev-course-classes-and-objects-1.executor": "Run",
     "JUnit.StringUtilitiesTests.executor": "Run",
-    "JUnit.StringUtilitiesTests.testCensorAsparagus.executor": "Run",
+    "JUnit.StringUtilitiesTests.testCensorAsparagus.executor": "Debug",
+    "JUnit.StringUtilitiesTests.testShortString.executor": "Run",
     "JUnit.org.example in software-dev-course-classes-and-objects-1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -57,7 +57,7 @@
     "last_opened_file_path": "/home/mikel/projects/java/software-dev-course-classes-and-objects-1/pom.xml"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.StringUtilitiesTests.testCensorAsparagus">
+  <component name="RunManager" selected="JUnit.StringUtilitiesTests.testShortString">
     <configuration name="All in software-dev-course-classes-and-objects-1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software-dev-course-classes-and-objects-1" />
       <option name="PACKAGE_NAME" value="" />
@@ -97,6 +97,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringUtilitiesTests.testShortString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="software-dev-course-classes-and-objects-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.StringUtilitiesTests" />
+      <option name="METHOD_NAME" value="testShortString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.example in software-dev-course-classes-and-objects-1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software-dev-course-classes-and-objects-1" />
       <extension name="coverage">
@@ -113,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringUtilitiesTests.testShortString" />
         <item itemvalue="JUnit.StringUtilitiesTests.testCensorAsparagus" />
         <item itemvalue="JUnit.All in software-dev-course-classes-and-objects-1" />
         <item itemvalue="JUnit.StringUtilitiesTests" />
@@ -137,11 +154,31 @@
       <option name="project" value="LOCAL" />
       <updated>1749482945409</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="All Red Flag Errors taken care of. Still getting yellow squigley lines under the assertEquals method. Giving me an &quot;objects not compatible&quot; error. Google hasn't helped.">
+      <option name="closed" value="true" />
+      <created>1749923753919</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749923753919</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First solo attempt" />
-    <option name="LAST_COMMIT_MESSAGE" value="First solo attempt" />
+    <MESSAGE value="All Red Flag Errors taken care of. Still getting yellow squigley lines under the assertEquals method. Giving me an &quot;objects not compatible&quot; error. Google hasn't helped." />
+    <option name="LAST_COMMIT_MESSAGE" value="All Red Flag Errors taken care of. Still getting yellow squigley lines under the assertEquals method. Giving me an &quot;objects not compatible&quot; error. Google hasn't helped." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/StringUtilitiesTests.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
